@@ -1,19 +1,19 @@
 class count{
   constructor(n, num) {
-    this.n = n
-    this.num = num
+    this.n = n;
+    this.num = num;
   }
   start() {
-    this.n += this.num
+    this.n += this.num;
   }
   read() {
-    return this.n
+    return this.n;
   }
   stop() {
-    this.num = 0
+    this.num = 0;
   }
   clear() {
-    this.num = 0
-    this.n = 0
+    this.num = 0;
+    this.n = 0;
   }
 }
