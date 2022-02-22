@@ -19,6 +19,9 @@ class count{
 }
 
 class data {
+  constructor() {
+    
+  }
   save(name, value) {
     localStorage.setItem(name, JSON.stringify(value));
   }
