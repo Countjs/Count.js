@@ -44,10 +44,7 @@ function fs(c) {
   rect(0, 0, width, height);
 }
 
-function mkbtn() {
-  document.write("<button onClick="btn(link)"")
-}
 
-function btn(link) {
-  window.open(link)
+function mkbtn(link) {
+  document.write("<button onclick="window.open(link)">Go!</button>"
 }
