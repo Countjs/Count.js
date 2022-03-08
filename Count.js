@@ -43,3 +43,11 @@ function fs(c) {
   fill(c);
   rect(0, 0, width, height);
 }
+
+function mkbtn() {
+  document.write("<button onClick="btn(link)"")
+}
+
+function btn(link) {
+  window.open(link)
+}
